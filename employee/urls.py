@@ -11,3 +11,4 @@ urlpatterns = [
     path('delete', views.delete),
 ]
 
+

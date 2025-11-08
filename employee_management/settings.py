@@ -203,33 +203,20 @@ TEMPLATES = [
 # ---------------------------------------------
 # Database (✅ your original Railway MySQL)
 # ---------------------------------------------
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'railway',
-#         'USER': 'root',
-#         'PASSWORD': 'pXGUajoZPESSodfvvBFYOfuEbnQNNCyl',
-#         'HOST': 'caboose.proxy.rlwy.net',
-#         'PORT': '25794',
-#         'OPTIONS': {
-#             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
-#         }
-#     }
-# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': 'gLKUKZrOXPiWEDtYEvqdcNifFXCuWKVi',  # paste your Railway password here
-        'HOST': 'ballast.proxy.rlwy.net',
-        'PORT': '40979',
+        'PASSWORD': 'oNoVJHGbQNiCPMDHPlfmbXTLkjaOOTSR',
+        'HOST': 'metro.proxy.rlwy.net',
+        'PORT': '31115',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
         }
     }
 }
-
 
 # ---------------------------------------------
 # Password Validation
