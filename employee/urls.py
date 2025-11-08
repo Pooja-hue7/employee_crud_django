@@ -14,8 +14,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('employees/', views.get_all, name='get_all_employees'),   # ✅ GET all employees
-    path('employee/<int:id>/', views.get_by_id, name='get_by_id'), # ✅ GET by ID
+    path('employees/', views.get_all, name='get_all_employees'),
     path('employee/add/', views.register, name='register_employee'),
     path('employee/update/', views.update, name='update_employee'),
     path('employee/delete/', views.delete, name='delete_employee'),
